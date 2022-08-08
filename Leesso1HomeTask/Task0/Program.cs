@@ -8,6 +8,6 @@ if (a<b)
 }
 else if (a==b)
 {
-    Console.WriteLine($"Числа равны");
+    Console.WriteLine("Числа равны");
 }
 else Console.WriteLine($"Максимум число {a}");
