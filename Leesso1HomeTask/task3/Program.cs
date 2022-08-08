@@ -4,7 +4,7 @@ for (int i = 1; i < N+1; i++)
 {
     if (i%2==0)
     {
-        Console.WriteLine (i);
+        Console.Write ($"{i}, ");
     }
 }
 Console.WriteLine();
