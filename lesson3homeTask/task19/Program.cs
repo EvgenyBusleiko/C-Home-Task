@@ -30,7 +30,7 @@ double Revers (int Np,int count)// переварачиваем число в о
 int V=CountDig (N);
 //Console.WriteLine (V);
 double VersusN=Revers (N,V);
-string str=(N==VersusN) ? ("полином") : ("НЕ полином"); // Сравниваем прямое и перевернутое число
+string str=(N==VersusN) ? ("палиндром") : ("НЕ палиндром"); // Сравниваем прямое и перевернутое число
 Console.WriteLine ($"Число {N} это {str}");
 
 
