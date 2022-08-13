@@ -3,11 +3,11 @@ Console.Write ("Введите целое число : ");
 int N = Convert.ToInt32 (Console.ReadLine ());
 
 int CountDig (int Np)// определяем количество цифр в числе count
-{   int temp=Np;
+{   
     int count =0;
-    while (temp>0)
+    while (Np>0)
     {
-        temp=temp/10;
+        Np=Np/10;
         
         count++ ;   
     }
@@ -17,12 +17,10 @@ int CountDig (int Np)// определяем количество цифр в ч
 
 double Revers (int Np,int count)// переварачиваем число в обратном порядке
 {
-    double dig=0;
     double AntiN=0;
     for (int i = count; i >0; i--)
     {
-        dig=(Np%10)*Math.Pow(10,i-1);
-        AntiN=AntiN+dig;
+        AntiN=AntiN+(Np%10)*Math.Pow(10,i-1);
         //Console.WriteLine (AntiN);
         Np=Np/10;
    
