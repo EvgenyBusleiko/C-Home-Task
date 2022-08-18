@@ -1,7 +1,7 @@
 ﻿Console.Clear ();
-Console.Write("Введите первое число: ");
+Console.Write("Введите первое положительное целое число: ");
 int a = Convert.ToInt32 (Console.ReadLine ());
-Console.Write("Введите второе число: ");
+Console.Write("Введите второе положительное целое число: ");
 int b = Convert.ToInt32 (Console.ReadLine ());
 
 int Degree (int ad, int bd)
