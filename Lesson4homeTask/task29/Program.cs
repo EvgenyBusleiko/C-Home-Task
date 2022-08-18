@@ -2,9 +2,10 @@
 int [] RandArray (int len)
 {
     int []arraytemp=new int[len];
+    Random rnd=new Random();
     for (int i = 0; i < len; i++)
     {
-        arraytemp[i]=new Random().Next(0,100);
+        arraytemp[i]=rnd.Next(0,100);
     }
     return arraytemp;
 }   

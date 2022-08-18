@@ -1,5 +1,5 @@
 ﻿Console.Clear ();
-Console.Write("Введите первое число: ");
+Console.Write("Введите число: ");
 int a = Convert.ToInt32 (Console.ReadLine ());
 int AmmountDig (int temp)// определяем количество цифр в числе count
 {   
