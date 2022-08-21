@@ -7,9 +7,6 @@
 // [-4, -6, 89, 6] -> 0
 int[] CreateArrayRndInt(int size)
 {
-	if (size == 0)
-		return new int[] { };
-
 	Random rnd = new Random();
 	int[] array = new int[size];
 	for (int i = 0; i < size; ++i)
