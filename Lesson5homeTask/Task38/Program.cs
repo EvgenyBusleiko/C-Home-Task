@@ -90,6 +90,6 @@ double[] arr = CreateArrayRndDouble(qty);
 int [] result = FindMinMax (arr);
 PrintArray(arr,result);
 double diff= Math.Round ((arr[result[0]]-arr[result[1]]),1,MidpointRounding.ToEven);
-Console.WriteLine($"Разность максимального и минимального элемента = {diff}");
+Console.WriteLine($"Разность максимального и минимального элементов = {diff}");
 
 }
